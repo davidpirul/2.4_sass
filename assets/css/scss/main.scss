@@ -1,0 +1,14 @@
+$bg-color: gray;
+$card-body: rgb(70, 65, 65);
+$card-text: white;
+
+.card-img-top {
+    background-color: $bg-color;
+    color: $card-text;
+}
+
+.card-body { 
+    @extend .card-img-top
+
+
+}
